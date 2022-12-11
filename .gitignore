@@ -1,3 +1,4 @@
 node_moduels
 app/dist/*
 *.log
+.DS_Store
