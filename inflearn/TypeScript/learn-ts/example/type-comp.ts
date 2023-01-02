@@ -8,18 +8,18 @@ interface Person {
   name: string;
 }
 
-var a: Developer;
+// var a: Developer;
 var b: Person;
 // a = b; // X
-b = a; // O
+// b = a; // O
 
 // 함수
-var add = function(a: number) {
+var add = function (a: number) {
   // ...
-}
-var sum = function(a: number, b: number) {
+};
+var sum = function (a: number, b: number) {
   // ...
-}
+};
 // sum = add; // X
 // add = sum; // O
 
