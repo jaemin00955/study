@@ -1,4 +1,1 @@
-declare module 'chart.js' {
-  // ...
-  // interface MyChart{}
-}
+declare module 'chart.js';

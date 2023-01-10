@@ -54,8 +54,9 @@
      - **definitely Typed** : @types/chart.js를 설치하여 node_modules/chart.js에 index.d.ts 파일이 설치되어 문제 해결 가능
      - 아니면 현재 project폴더에 types라는 폴더를 만들어 그 안에 chart.js/index.d.ts파일을 만들고 tsconfig.json에서 "typeRoots" : ['./types']로 설정해준다.
      - axios와 같은 라이브러리는 이미 npm i 시 index.d.ts 파일도 같이 설치되어 타입 선언을 해준다.(문제 없는 라이브러리도 존재한다.) --> 그래서 타입스크립트 공홈으로 가서 해당 라이브러리 검색하면 @types/~도 설치해야하는 지 나와있다!!
-5. ㅇㅇ
-   - 
+5. `strict` 옵션 추가후 타입 정의
+   - not null에러 발생 가능문제 : `타입 단언(!.)`을 하거나 `if(!~~){return}`을 하거나 `옵셔널 체이닝(?.)`을 통해 해결 
+     - `타입 단언인 !.의 문제점` : 보이지않는 문제를 찾기힘들어짐
 6. ㅇㅇ
    - ㅇ
 7. 
